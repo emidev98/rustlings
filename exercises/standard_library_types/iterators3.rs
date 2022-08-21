@@ -4,7 +4,7 @@
 // 1. Complete the divide function to get the first four tests to pass.
 // 2. Get the remaining tests to pass by completing the result_with_list and
 //    list_of_results functions.
-// Execute `rustlings hint iterators3` to get some hints!
+// Execute `rustlings hint iterators3` or use the `hint` watch subcommand for a hint.
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum DivisionError {
@@ -20,6 +20,7 @@ pub struct NotDivisibleError {
 
 // Calculate `a` divided by `b` if `a` is evenly divisible by `b`.
 // Otherwise, return a suitable error.
+<<<<<<< HEAD
 pub fn divide(dividend: i32, divisor: i32) -> Result<i32, DivisionError> {
     if divisor == 0 {
         return Err(DivisionError::DivideByZero{})
@@ -32,6 +33,10 @@ pub fn divide(dividend: i32, divisor: i32) -> Result<i32, DivisionError> {
     }
 
     Ok(division as i32)
+=======
+pub fn divide(a: i32, b: i32) -> Result<i32, DivisionError> {
+    todo!();
+>>>>>>> 96098d228a90c435549847698d2c12b771af7464
 }
 
 // Complete the function and return a value of the correct type so the test passes.

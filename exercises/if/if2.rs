@@ -4,13 +4,7 @@
 // Step 2: Get the bar_for_fuzz and default_to_baz tests passing!
 // Execute `rustlings hint if2` or use the `hint` watch subcommand for a hint.
 
-<<<<<<< HEAD
-pub fn fizz_if_foo(fizzish: &str) -> &str {
-=======
-// I AM NOT DONE
-
 pub fn foo_if_fizz(fizzish: &str) -> &str {
->>>>>>> 96098d228a90c435549847698d2c12b771af7464
     if fizzish == "fizz" {
         "foo"
     } else if fizzish == "fuzz" {

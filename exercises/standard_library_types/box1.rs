@@ -33,19 +33,11 @@ fn main() {
 }
 
 pub fn create_empty_list() -> List {
-<<<<<<< HEAD
-    List::Nil
+    unimplemented!()
 }
 
 pub fn create_non_empty_list() -> List {
-    List::Cons(1, Box::new(Nil))
-=======
-    todo!()
-}
-
-pub fn create_non_empty_list() -> List {
-    todo!()
->>>>>>> 96098d228a90c435549847698d2c12b771af7464
+    unimplemented!()
 }
 
 #[cfg(test)]

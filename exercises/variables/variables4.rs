@@ -2,12 +2,8 @@
 // Execute `rustlings hint variables4` or use the `hint` watch subcommand for a hint.
 
 fn main() {
-<<<<<<< HEAD
-    let x: i32 = 2;
-=======
-    let x = 3;
+    let mut x: i32 = 2;
     println!("Number {}", x);
     x = 5; // don't change this line
->>>>>>> 96098d228a90c435549847698d2c12b771af7464
     println!("Number {}", x);
 }
